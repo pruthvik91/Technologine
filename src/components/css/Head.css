@@ -1,0 +1,53 @@
+.head {
+  overflow: hidden;
+  background: #6204CD;
+  /* background-image: url('./assets/img/dfddfdf.webp'); */
+  background-size: cover;
+}
+ .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s ease;
+  animation: smoothScroll 1s forwards;
+}
+.container
+{
+  margin-left:250px;
+  width: 1000px;
+  height: 500px;
+  font-family: lato;
+  font-weight:400;
+  
+}
+
+@keyframes smoothScroll {
+
+0% {
+  transform: translateY(-142px);
+}
+
+100% {
+  transform: translateY(0px);
+}
+}
+/*  gradient text css */
+.gradient-text {
+background: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
+background-size: 200% auto;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: animateGradient 10s ease infinite;
+}
+
+@keyframes animateGradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position:0% 50%;
+}
+}

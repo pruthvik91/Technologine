@@ -1,0 +1,167 @@
+.navbar69 {
+    overflow: hidden;
+    background: #6204CD;
+    /* background-image: url('./assets/img/dfddfdf.webp'); */
+    background-size: cover;
+  }
+   .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s ease;
+    animation: smoothScroll 1s forwards;
+  }
+  .container
+  {
+    margin-left:250px;
+    width: 1000px;
+    height: 500px;
+    font-family: lato;
+    font-weight:400;
+    position:absolute;
+    
+  }
+  
+  @keyframes smoothScroll {
+  
+  0% {
+    transform: translateY(-142px);
+  }
+  
+  100% {
+    transform: translateY(0px);
+  }
+  }
+  /*  gradient text css */
+  .gradient-text {
+  background: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animateGradient 10s ease infinite;
+  }
+  
+  @keyframes animateGradient {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position:0% 50%;
+  }
+  }
+
+/*! CSS Used from: https://adymize.com/wp-content/cache/breeze-minification/css/breeze_c2cde81eac3b0a301a3c32a74e269801.css ; media=all */
+@media all {
+  ul {
+    box-sizing: border-box;
+  }
+}
+/*! CSS Used from: https://adymize.com/wp-content/cache/breeze-minification/css/breeze_0d7cc9f0fe191fbac81e2c36e606575d.css ; media=all */
+@media all {
+  *,
+  :after,
+  :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+  }
+  @media print {
+    *,
+    :after,
+    :before {
+      background: 0 0 !important;
+      color: #000 !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+    h2,
+    p {
+      orphans: 3;
+      widows: 3;
+    }
+    h2 {
+      page-break-after: avoid;
+    }
+  }
+  li,
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+  }
+}
+/*! CSS Used from: https://adymize.com/wp-content/cache/breeze-minification/css/breeze_3e5c937bf7c42097db7e307014483d79.css ; media=all */
+@media all {
+  .container *,
+  .container :after,
+  .container :before {
+    box-sizing: border-box;
+  }
+  .container-element .container-widget-container {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s, transform var(--e-transform-transition-duration, 0.4s);
+  }
+}
+/*! CSS Used from: https://adymize.com/wp-content/cache/breeze-minification/css/breeze_ad88296ae4e84b79bdcd00862c2e04af.css ; media=all */
+@media all {
+  .ob-has-background-overlay > .container-widget-container {
+    position: relative;
+  }
+  .ob-has-background-overlay > .container-widget-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+  }
+  .ob-has-background-overlay > .container-widget-container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+  }
+}
+/*! CSS Used from: https://adymize.com/wp-content/cache/breeze-minification/css/breeze_1210701ecf125c1a22fff6149c36025c.css ; media=all */
+@media all {
+  .container-2301
+    .container-element.container-element-a389223
+    .container-widget-container {
+    text-indent: 0;
+    mix-blend-mode: inherit;
+  }
+  .container-2301
+    .container-element.container-element-a389223
+    .container-widget-container
+    p:last-child {
+    margin-bottom: 0;
+  }
+}
